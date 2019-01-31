@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[top=1cm, bottom=1cm, right=1cm, left=1cm]{geometry}
+
+\usepackage{listingFreeFem}
+
+\lstset{
+	columns=fullflexible,
+	frame=shadowbox,
+	numbers=left,
+	numberstyle=\color{gray},
+	breaklines=true,
+	postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+}
+
+\begin{document}
+\lstinputlisting[language=FreeFem]{LaplacianPAR.edp}
+\end{document}
