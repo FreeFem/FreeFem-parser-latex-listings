@@ -1,6 +1,6 @@
 # FreeFem parser for latex listings
 
-LaTeX listings package extension for FreeFem++ language.
+LaTeX listings package extension for [FreeFEM](https://freefem.org/) language.
 
 ## Usage
 
